@@ -127,7 +127,7 @@ export default function HeroSection() {
             <div className="shrink-0 flex items-center justify-center p-4 sm:p-5 rounded-2xl bg-white/10 backdrop-blur-md border border-white/25 shadow-xl transition-transform duration-300 hover:scale-105">
               {!imgError ? (
                 <img 
-                  src="/images/logo-omya.png" 
+                  src="/images/omya-invest-logo-light.png" 
                   alt="OMYA INVEST" 
                   onError={() => setImgError(true)}
                   className="h-12 sm:h-14 md:h-16 lg:h-18 w-auto object-contain filter drop-shadow-[0_4px_12px_rgba(255,255,255,0.4)]"

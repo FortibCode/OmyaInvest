@@ -3,13 +3,14 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Bienvenue sur OMYA INVEST, votre solution spécialisée dans l'investissement..." />
 
-        <title inertia>{{ config('app.name', 'OMYA CAPITAL') }}</title>
+        <title inertia>{{ config('app.name', 'OMYA INVEST') }}</title>
 
-        <!-- Favicon Officiel OMYA CAPITAL PNG -->
+        <!-- Favicon officiel OMYA INVEST -->
         <link rel="icon" type="image/png" href="/favicon.png" />
-        <link rel="shortcut icon" type="image/png" href="/favicon.png" />
-        <link rel="apple-touch-icon" href="/favicon.png" />
+        <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
