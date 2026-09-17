@@ -14,7 +14,8 @@
 /.zed
 /auth.json
 /node_modules
-/public/build
+# /public/build EST versionné : l'hébergement cPanel ne peut pas lancer `npm run build`.
+# Les assets compilés et manifest.json doivent toujours être commités ensemble.
 /public/fonts-manifest.dev.json
 /public/hot
 /public/storage
