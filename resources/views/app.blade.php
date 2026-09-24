@@ -49,49 +49,43 @@
 
         <!-- JSON-LD Structured Data (Google Schema.org for Local Business & Financial Service) -->
         <script type="application/ld+json">
-        {
-          "@context": "https://schema.org",
-          "@type": ["FinancialService", "Organization", "LocalBusiness"],
-          "name": "OMYA INVEST",
-          "alternateName": ["OMYA CAPITAL", "OMYA"],
-          "url": "{{ config('app.url', 'https://omya-invest.com') }}",
-          "logo": "{{ asset('/images/omya-invest-logo-light.png') }}",
-          "image": "{{ asset('/images/omya-invest-logo-light.png') }}",
-          "description": "OMYA INVEST est une société spécialisée dans l'investissement boursier, la gestion de patrimoine et le conseil financier en zone CEMAC.",
-          "email": "contact@omya-invest.com",
-          "telephone": "+242066426989",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "76 avenue Amilcar Cabral centre-ville immeuble Villarecci en face du Radisson blu",
-            "addressLocality": "Brazzaville",
-            "addressRegion": "Brazzaville",
-            "addressCountry": "CG"
-          },
-          "geo": {
-            "@type": "GeoCoordinates",
-            "latitude": -4.2634,
-            "longitude": 15.2429
-          },
-          "openingHoursSpecification": {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": [
-              "Monday",
-              "Tuesday",
-              "Wednesday",
-              "Thursday",
-              "Friday"
+        {!! json_encode([
+            '@context' => 'https://schema.org',
+            '@type' => ['FinancialService', 'Organization', 'LocalBusiness'],
+            'name' => 'OMYA INVEST',
+            'alternateName' => ['OMYA CAPITAL', 'OMYA'],
+            'url' => config('app.url', 'https://omya-invest.com'),
+            'logo' => asset('/images/omya-invest-logo-light.png'),
+            'image' => asset('/images/omya-invest-logo-light.png'),
+            'description' => "OMYA INVEST est une société spécialisée dans l'investissement boursier, la gestion de patrimoine et le conseil financier en zone CEMAC.",
+            'email' => 'contact@omya-invest.com',
+            'telephone' => '+242066426989',
+            'address' => [
+                '@type' => 'PostalAddress',
+                'streetAddress' => '76 avenue Amilcar Cabral centre-ville immeuble Villarecci en face du Radisson blu',
+                'addressLocality' => 'Brazzaville',
+                'addressRegion' => 'Brazzaville',
+                'addressCountry' => 'CG',
             ],
-            "opens": "08:00",
-            "closes": "17:00"
-          },
-          "contactPoint": {
-            "@type": "ContactPoint",
-            "telephone": "+242066426989",
-            "contactType": "customer service",
-            "email": "contact@omya-invest.com",
-            "availableLanguage": ["French", "English", "Portuguese"]
-          }
-        }
+            'geo' => [
+                '@type' => 'GeoCoordinates',
+                'latitude' => -4.2634,
+                'longitude' => 15.2429,
+            ],
+            'openingHoursSpecification' => [
+                '@type' => 'OpeningHoursSpecification',
+                'dayOfWeek' => ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+                'opens' => '08:00',
+                'closes' => '17:00',
+            ],
+            'contactPoint' => [
+                '@type' => 'ContactPoint',
+                'telephone' => '+242066426989',
+                'contactType' => 'customer service',
+                'email' => 'contact@omya-invest.com',
+                'availableLanguage' => ['French', 'English', 'Portuguese'],
+            ],
+        ], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) !!}
         </script>
 
         <!-- Scripts -->

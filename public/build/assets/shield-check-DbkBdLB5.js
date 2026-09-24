@@ -1,4 +1,4 @@
-import{j as d,r}from"./app-BG4ajjew.js";const L="/images/omya-invest-logo.png",A="/images/omya-invest-logo-light.png";function $({className:t="h-9",light:e=!1,alt:o="OMYA INVEST"}){return d.jsx("span",{className:`inline-flex items-center justify-center select-none ${t}`,children:d.jsx("img",{src:e?A:L,alt:o,draggable:!1,className:"h-full w-auto object-contain"})})}/**
+import{j as d,r}from"./app-DRcBKyRs.js";const L="/images/omya-invest-logo.png",A="/images/omya-invest-logo-light.png";function $({className:t="h-9",light:e=!1,alt:o="OMYA INVEST"}){return d.jsx("span",{className:`inline-flex items-center justify-center select-none ${t}`,children:d.jsx("img",{src:e?A:L,alt:o,draggable:!1,className:"h-full w-auto object-contain"})})}/**
  * @license lucide-react v1.29.0 - ISC
  *
  * This source code is licensed under the ISC license.
