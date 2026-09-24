@@ -428,15 +428,15 @@ export default function TestimonialsAndFooterSection() {
               <div className="space-y-3 text-sm text-sky-400">
                 <motion.div className="flex items-start gap-2" whileHover={{ x: 3 }}>
                   <MapPin className="w-4 h-4 text-sky-400 shrink-0 mt-0.5" />
-                  <span>Avenue Amilcar Cabral, Centre-ville, Brazzaville — Congo</span>
+                  <span>76 avenue Amilcar Cabral centre-ville immeuble Villarecci (en face du Radisson blu), Brazzaville — Congo</span>
                 </motion.div>
                 <motion.div className="flex items-center gap-2" whileHover={{ x: 3 }}>
                   <Phone className="w-4 h-4 text-sky-400 shrink-0" />
-                  <span>+242 06 123 45 67</span>
+                  <a href="tel:+242066426989" className="hover:text-white transition">+242 06 6426989</a>
                 </motion.div>
                 <motion.div className="flex items-center gap-2" whileHover={{ x: 3 }}>
                   <Mail className="w-4 h-4 text-sky-400 shrink-0" />
-                  <span>contact@omyainvest.com</span>
+                  <a href="mailto:contact@omya-invest.com" className="hover:text-white transition">contact@omya-invest.com</a>
                 </motion.div>
               </div>
 

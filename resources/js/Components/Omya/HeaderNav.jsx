@@ -106,13 +106,13 @@ export default function HeaderNav({ onOpenAuth }) {
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           {/* Left: email + phone */}
           <div className="flex items-center gap-6">
-            <a href="mailto:contact@omyainvest.com" className="flex items-center gap-1.5 text-sky-300 hover:text-white transition">
+            <a href="mailto:contact@omya-invest.com" className="flex items-center gap-1.5 text-sky-300 hover:text-white transition">
               <Mail className="w-3 h-3 text-sky-400" />
-              <span>contact@omyainvest.com</span>
+              <span>contact@omya-invest.com</span>
             </a>
-            <a href="tel:+242061234567" className="flex items-center gap-1.5 text-sky-300 hover:text-white transition">
+            <a href="tel:+242066426989" className="flex items-center gap-1.5 text-sky-300 hover:text-white transition">
               <Phone className="w-3 h-3 text-sky-400" />
-              <span>+242 06 123 45 67</span>
+              <span>+242 06 6426989</span>
             </a>
           </div>
           {/* Right: social icons */}
