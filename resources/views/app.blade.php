@@ -6,7 +6,7 @@
 
         <!-- Primary Meta Tags -->
         <title inertia>{{ config('app.name', 'OMYA INVEST') }} — Bourse & Gestion de Patrimoine | Brazzaville, Congo</title>
-        <meta name="title" content="OMYA INVEST — Bourse & Gestion de Patrimoine | Brazzaville, Congo">
+        <meta name="title" content="OMYA INVEST Bourse & Gestion de Patrimoine | Brazzaville, Congo">
         <meta name="description" content="OMYA INVEST, votre partenaire spécialisé dans l'investissement boursier, la gestion de patrimoine et le conseil financier. Contact: contact@omya-invest.com, Tél: +242 06 6426989. Adresse: 76 avenue Amilcar Cabral centre-ville immeuble Villarecci en face du Radisson blu, Brazzaville, Congo." />
         <meta name="keywords" content="OMYA INVEST, OMYA, OMYA CAPITAL, bourse, investissement, gestion de patrimoine, conseil financier, Brazzaville, Congo, CEMAC, BVMAC, 76 avenue Amilcar Cabral, immeuble Villarecci, Radisson blu" />
         <meta name="author" content="OMYA INVEST" />
