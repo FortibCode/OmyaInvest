@@ -11,6 +11,7 @@
         <meta name="keywords" content="OMYA INVEST, OMYA, OMYA CAPITAL, bourse, investissement, gestion de patrimoine, conseil financier, Brazzaville, Congo, CEMAC, BVMAC, 76 avenue Amilcar Cabral, immeuble Villarecci, Radisson blu" />
         <meta name="author" content="OMYA INVEST" />
         <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+        <meta name="google-site-verification" content="UqSqQyHXWFNFyQ9CqDv_1lnQ0DQP40K_Wcj0FDbZ54E" />
 
         <!-- Geo Meta Tags for Local SEO -->
         <meta name="geo.region" content="CG-12" />
