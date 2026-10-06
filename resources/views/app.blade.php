@@ -6,9 +6,7 @@
 
         <!-- Primary Meta Tags -->
         <title inertia>{{ config('app.name', 'OMYA INVEST') }}</title>
-        <meta name="title" content="OMYA INVEST Bourse & Gestion de Patrimoine | Brazzaville, Congo">
-        <meta name="description" content="OMYA INVEST, votre partenaire spécialisé dans l'investissement boursier, la gestion de patrimoine et le conseil financier. Contact: contact@omya-invest.com, Tél: +242 06 6426989. Adresse: 76 avenue Amilcar Cabral centre-ville immeuble Villarecci en face du Radisson blu, Brazzaville, Congo." />
-        <meta name="keywords" content="OMYA INVEST, OMYA, OMYA CAPITAL, bourse, investissement, gestion de patrimoine, conseil financier, Brazzaville, Congo, CEMAC, BVMAC, 76 avenue Amilcar Cabral, immeuble Villarecci, Radisson blu" />
+        <meta name="description" content="Société de bourse agréée COSUMAF, membre de la BVMAC. Spécialisée dans l’investissement boursier et la gestion de patrimoine en zone CEMAC. Brazzaville, Congo." />
         <meta name="author" content="OMYA INVEST" />
         <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
         <meta name="google-site-verification" content="UqSqQyHXWFNFyQ9CqDv_1lnQ0DQP40K_Wcj0FDbZ54E" />
@@ -22,8 +20,8 @@
         <!-- Open Graph / Facebook -->
         <meta property="og:type" content="website" />
         <meta property="og:url" content="{{ str_contains(url()->current(), 'omya-invest.com') ? url()->current() : 'https://omya-invest.com/' }}" />
-        <meta property="og:title" content="OMYA INVEST — Bourse & Gestion de Patrimoine" />
-        <meta property="og:description" content="Solution spécialisée dans l'investissement boursier, la gestion de patrimoine et les opportunités financières en zone CEMAC. Email: contact@omya-invest.com | Tél: +242 06 6426989." />
+        <meta property="og:title" content="OMYA INVEST" />
+        <meta property="og:description" content="Société de bourse agréée COSUMAF. Investissement boursier, gestion de patrimoine et conseil financier en zone CEMAC." />
         <meta property="og:image" content="{{ asset('/images/omya-invest-logo-light.png') }}" />
         <meta property="og:site_name" content="OMYA INVEST" />
         <meta property="og:locale" content="fr_CG" />
@@ -31,8 +29,8 @@
         <!-- Twitter Card -->
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:url" content="{{ str_contains(url()->current(), 'omya-invest.com') ? url()->current() : 'https://omya-invest.com/' }}" />
-        <meta name="twitter:title" content="OMYA INVEST — Bourse & Gestion de Patrimoine" />
-        <meta name="twitter:description" content="Investissez avec sérénité et performance sur les marchés financiers. Email: contact@omya-invest.com | Tél: +242 06 6426989." />
+        <meta name="twitter:title" content="OMYA INVEST" />
+        <meta name="twitter:description" content="Votre partenaire pour l’investissement boursier et la gestion de patrimoine en Afrique Centrale. Membre de la BVMAC." />
         <meta name="twitter:image" content="{{ asset('/images/omya-invest-logo-light.png') }}" />
 
         <!-- Canonical URL -->
