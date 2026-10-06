@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Primary Meta Tags -->
-        <title inertia>{{ config('app.name', 'OMYA INVEST') }} — Bourse & Gestion de Patrimoine | Brazzaville, Congo</title>
+        <title inertia>{{ config('app.name', 'OMYA INVEST') }}</title>
         <meta name="title" content="OMYA INVEST Bourse & Gestion de Patrimoine | Brazzaville, Congo">
         <meta name="description" content="OMYA INVEST, votre partenaire spécialisé dans l'investissement boursier, la gestion de patrimoine et le conseil financier. Contact: contact@omya-invest.com, Tél: +242 06 6426989. Adresse: 76 avenue Amilcar Cabral centre-ville immeuble Villarecci en face du Radisson blu, Brazzaville, Congo." />
         <meta name="keywords" content="OMYA INVEST, OMYA, OMYA CAPITAL, bourse, investissement, gestion de patrimoine, conseil financier, Brazzaville, Congo, CEMAC, BVMAC, 76 avenue Amilcar Cabral, immeuble Villarecci, Radisson blu" />
@@ -21,7 +21,7 @@
 
         <!-- Open Graph / Facebook -->
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="{{ url()->current() }}" />
+        <meta property="og:url" content="{{ str_contains(url()->current(), 'omya-invest.com') ? url()->current() : 'https://omya-invest.com/' }}" />
         <meta property="og:title" content="OMYA INVEST — Bourse & Gestion de Patrimoine" />
         <meta property="og:description" content="Solution spécialisée dans l'investissement boursier, la gestion de patrimoine et les opportunités financières en zone CEMAC. Email: contact@omya-invest.com | Tél: +242 06 6426989." />
         <meta property="og:image" content="{{ asset('/images/omya-invest-logo-light.png') }}" />
@@ -30,13 +30,13 @@
 
         <!-- Twitter Card -->
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:url" content="{{ url()->current() }}" />
+        <meta name="twitter:url" content="{{ str_contains(url()->current(), 'omya-invest.com') ? url()->current() : 'https://omya-invest.com/' }}" />
         <meta name="twitter:title" content="OMYA INVEST — Bourse & Gestion de Patrimoine" />
         <meta name="twitter:description" content="Investissez avec sérénité et performance sur les marchés financiers. Email: contact@omya-invest.com | Tél: +242 06 6426989." />
         <meta name="twitter:image" content="{{ asset('/images/omya-invest-logo-light.png') }}" />
 
         <!-- Canonical URL -->
-        <link rel="canonical" href="{{ url()->current() }}" />
+        <link rel="canonical" href="{{ str_contains(url()->current(), 'omya-invest.com') ? url()->current() : 'https://omya-invest.com/' }}" />
 
         <!-- Favicon officiel OMYA INVEST -->
         <link rel="icon" type="image/png" href="/favicon.png" />
