@@ -25,7 +25,7 @@ export default function Welcome({ auth }) {
 
   return (
     <LanguageProvider>
-      <Head title="OMYA INVEST - Bourse & Gestion de Patrimoine" />
+      <Head title="OMYA INVEST" />
 
       {/* Global 4K Fixed Trading Floor Background Layer */}
       <div className="global-trading-bg" />
