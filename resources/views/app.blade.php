@@ -58,7 +58,7 @@
             'image' => asset('/images/omya-invest-logo-light.png'),
             'description' => "OMYA INVEST est une société spécialisée dans l'investissement boursier, la gestion de patrimoine et le conseil financier en zone CEMAC.",
             'email' => 'contact@omya-invest.com',
-            'telephone' => '+242066426989',
+            'telephone' => '+242065180118',
             'address' => [
                 '@type' => 'PostalAddress',
                 'streetAddress' => '76 avenue Amilcar Cabral centre-ville immeuble Villarecci en face du Radisson blu',
@@ -79,7 +79,7 @@
             ],
             'contactPoint' => [
                 '@type' => 'ContactPoint',
-                'telephone' => '+242066426989',
+                'telephone' => '+242065180118',
                 'contactType' => 'customer service',
                 'email' => 'contact@omya-invest.com',
                 'availableLanguage' => ['French', 'English', 'Portuguese'],
